@@ -16,4 +16,3 @@ This project introduces a computable, real-time metric that operationalizes exec
 * **5-C Behavioral Framework:** Maps qualitative footprints to discrete numeric vectors based on Character, Competence, Cohesion, Commitment, and Communication.
 * **Non-Linear Harmonic Fusion Engine:** Combines quantitative firm performance with qualitative behavioral alignment.
 * **Predictive Sandbox:** Allows simulation of prospective governance shock events.
-*
