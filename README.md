@@ -1,18 +1,19 @@
-# Management Quality Index (MQI) Platform
+# Management Quality Index (MQI) Platform 🚀
 
-A multi-agentic pipeline for quantifying management quality as a predictive signal for Equities.
+Hi! Welcome to my project. The Management Quality Index (MQI) is a full-stack AI platform that I built to predict stock market performance. 
 
-## 🚀 Project Overview
-This project introduces a computable, real-time metric that operationalizes executive leadership traits as leading indicators of stock performance. It utilizes an asynchronous multi-agentic Al architecture to translate heterogeneous unstructured text streams into deterministic, institutional-grade predictive signals.
+Usually, people only look at financial numbers to guess how a stock will perform. I wanted to try something different: predicting stock movement by analyzing the actual behavior, ethics, and communication style of company leaders and CEOs. 
 
-## 💻 Tech Stack
-* **Frontend:** Next.js 14
-* **Backend:** FastAPI, Python
-* **AI/ML:** LLaMA 3.3-70B (Agentic Scorer in JSON Mode), FinBERT (Sentiment Classification)
-* **Database & State Management:** MongoDB Atlas
+## 💻 How We Built It (Tech Stack)
+* **Frontend:** Next.js 14 (for a clean, fast user interface)
+* **Backend:** FastAPI with Python (for handling asynchronous data requests)
+* **AI & Machine Learning:** LLaMA 3.3-70B (for scoring behavior) & FinBERT (for analyzing sentiment in financial texts)
+* **Database:** MongoDB Atlas (for session tracking and managing state)
 
-## ⚙️ Key Features
-* **Decoupled Multi-Agentic Architecture:** Segregates data extraction, semantic processing, and quantitative synthesis to mitigate hallucination risks.
-* **5-C Behavioral Framework:** Maps qualitative footprints to discrete numeric vectors based on Character, Competence, Cohesion, Commitment, and Communication.
-* **Non-Linear Harmonic Fusion Engine:** Combines quantitative firm performance with qualitative behavioral alignment.
-* **Predictive Sandbox:** Allows simulation of prospective governance shock events.
+## ⚙️ What It Actually Does
+* **Smart Data Extraction:** The system automatically scrapes public digital footprints of executives (like earnings calls, interviews, and PR statements).
+* **The 5-C Behavioral Framework:** Instead of random AI guesses, the LLM strictly scores leaders on 5 metrics: Character, Competence, Cohesion, Commitment, and Communication. 
+* **Harmonic Fusion Engine:** It takes the AI-generated "Management Score" and combines it with real-time quantitative data from Yahoo Finance to generate a simple Buy, Hold, or Sell signal.
+* **Predictive Sandbox:** A cool feature I added where you can simulate "what-if" scenarios (like what happens to the stock if a CEO suddenly resigns).
+
+Feel free to explore the code!
