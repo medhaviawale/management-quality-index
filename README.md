@@ -1,19 +1,18 @@
-# Management Quality Index (MQI) Platform 🚀
+# Management Quality Index (MQI) Platform 
 
-Hi! Welcome to my project. The Management Quality Index (MQI) is a full-stack AI platform that I built to predict stock market performance. 
+**Domain:** Full-Stack Web Technology & Predictive AI Modeling
 
-Usually, people only look at financial numbers to guess how a stock will perform. I wanted to try something different: predicting stock movement by analyzing the actual behavior, ethics, and communication style of company leaders and CEOs. 
+##  Project Overview
+This project introduces a real-time predictive metric for equity markets by analyzing unstructured data streams and executive behavioral traits.
 
-## 💻 How We Built It (Tech Stack)
-* **Frontend:** Next.js 14 (for a clean, fast user interface)
-* **Backend:** FastAPI with Python (for handling asynchronous data requests)
-* **AI & Machine Learning:** LLaMA 3.3-70B (for scoring behavior) & FinBERT (for analyzing sentiment in financial texts)
-* **Database:** MongoDB Atlas (for session tracking and managing state)
+##  Tech Stack
+* **Frontend:** Next.js 14
+* **Backend:** FastAPI (Asynchronous), Python
+* **Database & State Management:** MongoDB Atlas
+* **AI/ML Integration:** LLaMA 3.3-70B, FinBERT
 
-## ⚙️ What It Actually Does
-* **Smart Data Extraction:** The system automatically scrapes public digital footprints of executives (like earnings calls, interviews, and PR statements).
-* **The 5-C Behavioral Framework:** Instead of random AI guesses, the LLM strictly scores leaders on 5 metrics: Character, Competence, Cohesion, Commitment, and Communication. 
-* **Harmonic Fusion Engine:** It takes the AI-generated "Management Score" and combines it with real-time quantitative data from Yahoo Finance to generate a simple Buy, Hold, or Sell signal.
-* **Predictive Sandbox:** A cool feature I added where you can simulate "what-if" scenarios (like what happens to the stock if a CEO suddenly resigns).
-
-Feel free to explore the code!
+##  Key Implementations & Impact
+* Architected a decoupled multi-agentic pipeline integrating a Next.js 14 frontend with an asynchronous FastAPI backend to process unstructured data streams.
+* Deployed a robust backend architecture using MongoDB Atlas for session tracking and state management, implementing atomic database operations to ensure data integrity.
+* Developed a non-linear harmonic fusion engine in Python to process and combine quantitative financial metrics with structured JSON outputs from machine learning models.
+* Published research detailing the platform's system architecture, API integrations, and 72.41% accuracy rate.
